@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2015", "2015", "{16257EE0-F226-4013-9C44-DAA0306867A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FollowDirections", "FollowDirections\FollowDirections.csproj", "{929C2D7D-2138-4151-A823-B5F32B14F183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FollowDirections", "FollowDirections\FollowDirections.csproj", "{929C2D7D-2138-4151-A823-B5F32B14F183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowMuchWrapping", "HowMuchWrapping\HowMuchWrapping.csproj", "{76B20D0A-22AC-4408-957D-13454AD7E51F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{929C2D7D-2138-4151-A823-B5F32B14F183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{929C2D7D-2138-4151-A823-B5F32B14F183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{929C2D7D-2138-4151-A823-B5F32B14F183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B20D0A-22AC-4408-957D-13454AD7E51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B20D0A-22AC-4408-957D-13454AD7E51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B20D0A-22AC-4408-957D-13454AD7E51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B20D0A-22AC-4408-957D-13454AD7E51F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{929C2D7D-2138-4151-A823-B5F32B14F183} = {16257EE0-F226-4013-9C44-DAA0306867A4}
+		{76B20D0A-22AC-4408-957D-13454AD7E51F} = {16257EE0-F226-4013-9C44-DAA0306867A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE25E179-D1B8-4131-9534-65EA243B6A84}
