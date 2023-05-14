@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2015", "2015", "{16257EE0-F226-4013-9C44-DAA0306867A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FollowDirections", "FollowDirections\FollowDirections.csproj", "{929C2D7D-2138-4151-A823-B5F32B14F183}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{929C2D7D-2138-4151-A823-B5F32B14F183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929C2D7D-2138-4151-A823-B5F32B14F183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929C2D7D-2138-4151-A823-B5F32B14F183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929C2D7D-2138-4151-A823-B5F32B14F183}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{929C2D7D-2138-4151-A823-B5F32B14F183} = {16257EE0-F226-4013-9C44-DAA0306867A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE25E179-D1B8-4131-9534-65EA243B6A84}
+	EndGlobalSection
+EndGlobal
