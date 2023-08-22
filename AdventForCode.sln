@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HowMuchWrapping", "HowMuchW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhereToDeliver", "WhereToDeliver\WhereToDeliver.csproj", "{DB2E1A9C-5567-43D5-8D07-DBD0F5683F07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventcoinMining", "AdventcoinMining\AdventcoinMining.csproj", "{D451D77C-AC0C-4CD1-A201-CA73326B3E26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventcoinMining", "AdventcoinMining\AdventcoinMining.csproj", "{D451D77C-AC0C-4CD1-A201-CA73326B3E26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaughtyTexts", "NaughtyTexts\NaughtyTexts.csproj", "{8316B646-2C2D-46E9-A025-51B8585BC829}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NaughtyTexts", "NaughtyTexts\NaughtyTexts.csproj", "{8316B646-2C2D-46E9-A025-51B8585BC829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightsOnOrOff", "LightsOnOrOff\LightsOnOrOff.csproj", "{20E59F15-F62F-4105-9DAC-C0E0CF8AC761}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{8316B646-2C2D-46E9-A025-51B8585BC829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8316B646-2C2D-46E9-A025-51B8585BC829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8316B646-2C2D-46E9-A025-51B8585BC829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E59F15-F62F-4105-9DAC-C0E0CF8AC761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E59F15-F62F-4105-9DAC-C0E0CF8AC761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E59F15-F62F-4105-9DAC-C0E0CF8AC761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E59F15-F62F-4105-9DAC-C0E0CF8AC761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{DB2E1A9C-5567-43D5-8D07-DBD0F5683F07} = {16257EE0-F226-4013-9C44-DAA0306867A4}
 		{D451D77C-AC0C-4CD1-A201-CA73326B3E26} = {16257EE0-F226-4013-9C44-DAA0306867A4}
 		{8316B646-2C2D-46E9-A025-51B8585BC829} = {16257EE0-F226-4013-9C44-DAA0306867A4}
+		{20E59F15-F62F-4105-9DAC-C0E0CF8AC761} = {16257EE0-F226-4013-9C44-DAA0306867A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE25E179-D1B8-4131-9534-65EA243B6A84}

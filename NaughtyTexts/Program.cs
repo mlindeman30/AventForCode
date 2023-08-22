@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Text.RegularExpressions;
+
 Console.WriteLine("How may strings are nice and not naughty");
 
 var lines = File.ReadAllLines("./input.txt").ToList();
@@ -6,7 +8,7 @@ var lines = File.ReadAllLines("./input.txt").ToList();
 
 var niceCount = 0;
 var naughtyCount = 0;
-var old = true;
+var old = false;
 
 foreach (var line in lines)
 {
@@ -37,7 +39,28 @@ foreach (var line in lines)
     }
     else
     {
+        var matchesCountRepeats = 0;
+        var matchesCountInTheMiddle = 0;
+        for (int i = 0; i < line.Length; i++)
+        {
+            if (i == line.Length - 1)
+                continue;
+            
+            var matchString = $"({line[i]}{line[i + 1]})";//match multiple occurences of repeats
+            var matches = Regex.Matches(line, matchString);
 
+            if (matches.Count >= 2)
+            matchesCountRepeats++;
+            matchString = $"({line[i]}.{line[i]})";
+            var match = Regex.Match(line, matchString,RegexOptions.NonBacktracking);
+            if (match.Captures.Count >= 1)
+                matchesCountInTheMiddle++;
+        }
+
+        if (matchesCountRepeats >= 1 && matchesCountInTheMiddle >= 1)
+            niceCount++;
+        else
+            naughtyCount++;
     }
 
 }
